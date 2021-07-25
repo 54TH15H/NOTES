@@ -25,3 +25,7 @@ function draw(e) {
 document.addEventListener("mousemove", draw);
 document.addEventListener("mousedown", setPosition);
 document.addEventListener("mouseenter", setPosition);
+
+function clearCanvas(){
+    ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+}
